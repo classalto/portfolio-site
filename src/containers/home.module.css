@@ -7,9 +7,13 @@ html, body, #root, .App {
 
   body {
     background-color: rgba(238, 200, 142, 0.692);
-
+height: 100%;
   }
 
+  .home {
+      width: auto;
+      height: auto;
+  }
 .box {
     position: fixed;
     top: -300px;
@@ -47,6 +51,7 @@ html, body, #root, .App {
       font-size: 35px;
       color: rgb(95, 80, 80);
       margin-left: 6vw;
+      width: max-content;
   }
 
   .heading p {
@@ -55,3 +60,15 @@ html, body, #root, .App {
       line-height: 1.4em;
       font-style: italic;
   }
+
+  .navlinks span {
+      font-family: 'Comfortaa', cursive;
+      font-size: 20px;
+      color: rgb(95, 80, 80);
+  }
+
+  .social {
+      width: 5px;
+      height: ;
+  }
+
