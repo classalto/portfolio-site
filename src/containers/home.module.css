@@ -61,14 +61,48 @@ height: 100%;
       font-style: italic;
   }
 
-  .navlinks span {
+  .navigation li {
+      display: flex;
       font-family: 'Comfortaa', cursive;
       font-size: 20px;
       color: rgb(95, 80, 80);
+      list-style: none;
+      flex-direction: row;
+      margin: 10px;
   }
 
-  .social {
-      width: 5px;
-      height: ;
+  .navigation li:hover {
+    transform: scale(1.2);
+    color: #77daff;
+    cursor: pointer;
+  }
+
+  .navlinks {
+      display: flex;
+      flex-direction: row;
+  }
+
+  /* Social Icon Styles */
+  header {
+      display: flex;
+      justify-content: flex-end;
+      margin: 2vh;
+  }
+
+  .social svg{
+      width: 5vw;
+      height: 5vh;
+      margin: 0;
+      padding: 0;
+  }
+
+  .GrGithub:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .GrLinkedin:hover {
+    transform: scale(1.2);
+    cursor: pointer;
   }
 
