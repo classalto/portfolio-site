@@ -17,8 +17,8 @@ const Home = () => {
           </ul>
         </nav>
         <section className={styles.social}>
-          <a src="https://www.linkedin.com/in/victor-b-williams/"><GrLinkedin className={styles.GrLinkedin} /></a>
-          <a src="https://github.com/classalto"><GrGithub className={styles.GrGithub} /></a>
+          <a href="https://www.linkedin.com/in/victor-b-williams/" target="_blank"><GrLinkedin className={styles.GrLinkedin}/></a>
+          <a href="https://github.com/classalto" target="_blank"><GrGithub className={styles.GrGithub}/></a>
         </section>      
       </header> 
       <section className={styles.heading}>

@@ -107,3 +107,7 @@ height: 100%;
     cursor: pointer;
   }
 
+  .social a {
+      color:rgb(26, 25, 25)
+  }
+
