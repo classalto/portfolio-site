@@ -84,6 +84,7 @@ height: 100%;
 
   /* Social Icon Styles */
   header {
+      position: relative;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -110,4 +111,3 @@ height: 100%;
   .social a {
       color:rgb(26, 25, 25)
   }
-
