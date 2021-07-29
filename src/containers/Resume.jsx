@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
+import Header from '../components/Header';
 
 const Resume = () => {
 
@@ -31,18 +32,7 @@ const Resume = () => {
 
   return (
     <>
-      <header>
-        <nav className={styles.navigation}>
-          <ul className={styles.navlinks}>
-            <li><Link to="/resume">Resume</Link></li>
-            <li>Projects</li>
-          </ul>
-        </nav>
-        <section className={styles.social}>
-          <a href="https://www.linkedin.com/in/victor-b-williams/" target="_blank" rel="noreferrer"><GrLinkedin className={styles.GrLinkedin}/></a>
-          <a href="https://github.com/classalto" target="_blank" rel="noreferrer"><GrGithub className={styles.GrGithub}/></a>
-        </section>      
-      </header> 
+      <Header />
       <div style={divStyle}>
         <iframe loading="lazy" style={iframeStyle}
           src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEfJ1ngiw4&#x2F;view?embed">

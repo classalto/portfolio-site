@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './home.module.css';
 import { GrLinkedin, GrGithub } from 'react-icons/gr';
+import styles from '../containers/home.module.css';
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
         <nav className={styles.navigation}>
           <ul className={styles.navlinks}>
             <li><Link to="/resume">Resume</Link></li>
-            <li>Projects</li>
+            <li><Link to="/projects">Projects</Link></li>
           </ul>
         </nav>
         <section className={styles.social}>
