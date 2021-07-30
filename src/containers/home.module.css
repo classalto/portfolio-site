@@ -1,113 +1,121 @@
-html, body, #root, .App {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    background-color: rgba(238, 200, 142, 0.692);
-height: 100%;
-  }
+body {
+  background-color: rgba(238, 200, 142, 0.692);
+  height: 100%;
+}
 
-  .home {
-      width: auto;
-      height: auto;
-  }
+.home {
+  width: auto;
+  height: auto;
+}
 .box {
-    position: fixed;
-    top: -300px;
-    transform: rotate(70deg);
-    left: 900px;
-    z-index: -1;
-  }
-  
-  .wave {
-    position: absolute;
-    margin-left: -150px;
-    width: 1800px;
-    height: 1800px;
-    border-radius: 40%;
-    animation: rotate 9000ms infinite linear;
-    background-color: #77daff;
-    margin-top: 0px;
-    transform: rotate(70deg);
-    z-index: 0;
-  }
-  
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    from {
-      transform: rotate(360deg);
-    }
-  }
+  position: fixed;
+  top: -300px;
+  transform: rotate(70deg);
+  left: 900px;
+  z-index: -1;
+}
 
-  .heading {
-      z-index: 1;
-      font-family: 'Comfortaa', cursive;
-      font-weight: bolder;
-      font-size: 35px;
-      color: rgb(102, 92, 92);
-      margin-left: 6vw;
-      width: max-content;
-  }
+.wave {
+  position: absolute;
+  margin-left: -150px;
+  width: 1800px;
+  height: 1800px;
+  border-radius: 40%;
+  animation: rotate 9000ms infinite linear;
+  background-color: #77daff;
+  margin-top: 0px;
+  transform: rotate(70deg);
+  z-index: 0;
+}
 
-  .heading p {
-      margin-top: 19vh;
-      font-size: 20px;
-      line-height: 1.4em;
-      font-style: italic;
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
   }
+  from {
+    transform: rotate(360deg);
+  }
+}
 
-  .navigation li {
-      display: flex;
-      font-family: 'Comfortaa', cursive;
-      font-size: 20px;
-      color: rgb(26, 25, 25);
-      list-style: none;
-      flex-direction: row;
-      margin: 10px;
-  }
+.heading {
+  z-index: 1;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  color: rgb(102, 92, 92);
+  margin-left: 6vw;
+  width: max-content;
+}
 
-  .navigation li:hover {
-    transform: scale(1.2);
-    color: #77daff;
-    cursor: pointer;
-  }
+.heading p {
+  margin-top: 19vh;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-style: italic;
+}
 
-  .navlinks {
-      display: flex;
-      flex-direction: row;
-  }
+.navigation li {
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  color: rgb(26, 25, 25);
+  list-style: none;
+  flex-direction: row;
+  margin: 10px;
+}
 
-  /* Social Icon Styles */
-  header {
-      position: relative;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      margin: 2vh;
-  }
+.navigation li:hover {
+  transform: scale(1.2);
+  color: #77daff;
+  cursor: pointer;
+}
 
-  .social svg{
-      width: 4vw;
-      height: 4vh;
-      margin: 0;
-      padding: 0;
-  }
+.navlinks {
+  display: flex;
+  flex-direction: row;
+}
 
-  .GrGithub:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
+.navlinks a {
+  text-decoration: none;
+  color: black;
+}
 
-  .GrLinkedin:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
+/* Social Icon Styles */
+header {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 2vh;
+}
 
-  .social a {
-      color:rgb(26, 25, 25)
-  }
+.social svg {
+  width: 4vw;
+  height: 4vh;
+  margin: 0;
+  padding: 0;
+}
+
+.GrGithub:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.GrLinkedin:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.social a {
+  color: rgb(26, 25, 25);
+}

@@ -32,6 +32,7 @@ const useStyles = makeStyles({
   content: {
     height: '10vh',
     fontFamily: 'Comfortaa',
+    color: 'rgb(102, 92, 92)',
   },
   links: {
     height: '5vh',
@@ -40,6 +41,11 @@ const useStyles = makeStyles({
     fontFamily: 'Comfortaa',
     fontWeight: 'bolder',
     padding: '10px 0px 10px 0px',
+    color: 'rgb(102, 92, 92)',
+  },
+  heading: {
+    fontFamily: 'Comfortaa',
+    color: 'rgb(102, 92, 92)',
   },
 });
 
@@ -59,7 +65,7 @@ const Projects = () => {
                 component="img"
                 alt={project.name}
                 height="140"
-                image="https://placekitten.com/300/300"
+                image={project.screenshot}
                 title="project"
               />
               <CardContent>
@@ -69,7 +75,7 @@ const Projects = () => {
                   component="h3"
                   className={classes.content.heading}
                 >
-                  <span>{project.name}</span>
+                  {project.name}
                 </Typography>
                 <Typography
                   variant="body2"
