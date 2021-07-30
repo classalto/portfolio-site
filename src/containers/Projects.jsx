@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     width: 400,
-    height: 700,
+    height: 400,
     backgroundColor: 'whitesmoke',
     margin: '25px',
     boxShadow: '10px 10px 10px 10px grey',
@@ -30,10 +30,16 @@ const useStyles = makeStyles({
     justifyContent: 'space-evenly',
   },
   content: {
-    height: '100px',
+    height: '10vh',
+    fontFamily: 'Comfortaa',
   },
   links: {
     height: '5vh',
+  },
+  list: {
+    fontFamily: 'Comfortaa',
+    fontWeight: 'bolder',
+    padding: '10px 0px 10px 0px',
   },
 });
 
@@ -61,9 +67,17 @@ const Projects = () => {
                   gutterBottom
                   variant="h5"
                   component="h3"
-                  className={classes.content}
+                  className={classes.content.heading}
                 >
-                  {project.name}
+                  <span>{project.name}</span>
+                </Typography>
+                <Typography
+                  variant="body2"
+                  color="textSecondary"
+                  component="p"
+                  className={classes.list}
+                >
+                  {project.tech}
                 </Typography>
                 <Typography
                   variant="body2"

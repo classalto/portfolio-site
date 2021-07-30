@@ -3,14 +3,7 @@
 export const projects = [
   {
     name: 'Aspire.io',
-    tech: [
-      'React.js',
-      'Node.js',
-      'React Beautiful DnD',
-      'PostgreSQL',
-      'Javascript',
-      'Material UI',
-    ],
+    tech: ['React.js,   ', 'Node.js,    ', 'PostgreSQL   '],
     description:
       'A job listing dashboard that allows you to see job listings at tech companies and track the job search process with an interactive user interface, all in one place!',
     url: 'https://aspir-io.netlify.app/',
@@ -19,15 +12,7 @@ export const projects = [
   },
   {
     name: 'Taurus Trading',
-    tech: [
-      'React.js',
-      'Node.js',
-      'Express.js',
-      'PostgreSQL',
-      'Chart.js',
-      'Finnhub API',
-      'Stocktwits API',
-    ],
+    tech: ['React.js,   ', 'Node.js,    ', 'PostgreSQL    '],
     description:
       'A full stack application that searches stocks and retrieves relevant price and social media sentiment which a user can track the performance of a mock portfolio over time.',
     url: 'https://taurus-trading.netlify.app',
@@ -36,7 +21,7 @@ export const projects = [
   },
   {
     name: 'Ambience Bot',
-    tech: ['Node.js', 'Discord.js', 'Javascript', 'Youtube API'],
+    tech: ['Node.js,    ', 'Discord.js,   '],
     description:
       'A discord bot that live-streams ambient music from the Youtube API through the use of simple commands and search terms that give the user full control over an ambient stream.',
     url: 'http://ambience-bot.netlify.app',
