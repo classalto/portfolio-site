@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     width: 400,
-    height: 400,
+    height: 700,
     backgroundColor: 'whitesmoke',
     margin: '25px',
     boxShadow: '10px 10px 10px 10px grey',
@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   container: {
     width: '100%',
     height: '70%',
-    top: '100px',
+    marginTop: '150px',
     display: 'grid',
     zIndex: '1',
     gridTemplateColumns: '450px 450px 450px',
@@ -30,8 +30,10 @@ const useStyles = makeStyles({
     justifyContent: 'space-evenly',
   },
   content: {
-    height: '70px',
-    overflow: 'hidden',
+    height: '100px',
+  },
+  links: {
+    height: '5vh',
   },
 });
 
@@ -73,7 +75,7 @@ const Projects = () => {
                 </Typography>
               </CardContent>
             </CardActionArea>
-            <CardActions>
+            <CardActions className={classes.links}>
               <Button size="small" color="primary">
                 <a href={project.repository}>Source</a>
               </Button>
